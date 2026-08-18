@@ -2,7 +2,7 @@ services:
   - type: web
     name: smart-warehouse-system
     env: python
-    buildCommand: pip install --upgrade pip && pip install --prefer-binary --only-binary=:all: -r requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python -m uvicorn backend.app:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/health
     envVars:
