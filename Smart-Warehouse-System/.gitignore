@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+venv/
+.env
+temp_js.js
+temp_js.json
+.DS_Store
+*.log
