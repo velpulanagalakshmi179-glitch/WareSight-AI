@@ -9,4 +9,4 @@ services:
       - key: WAREHOUSE_DB
         value: backend/warehouse.db
       - key: PYTHON_VERSION
-        value: 3.10.12
+        value: 3.11.9
